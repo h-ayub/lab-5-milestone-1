@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab5milestone1">
         <activity
+            android:name=".NewNoteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NotesActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
